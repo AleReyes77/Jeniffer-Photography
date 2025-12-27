@@ -1,0 +1,93 @@
+/* ===== RESPONSIVE DESIGN MEJORADO ===== */
+@media (max-width: 1200px) {
+    .quantum-carousel {
+        height: 500px;
+    }
+    
+    .carousel-item {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hologram-nav {
+        right: 15px;
+    }
+    
+    .quantum-carousel {
+        height: 400px;
+    }
+    
+    .carousel-item {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .floating-gallery {
+        height: 600px;
+    }
+    
+    .floating-image {
+        width: 200px !important;
+        height: 300px !important;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: rgba(5, 5, 16, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+        z-index: 999;
+        backdrop-filter: blur(20px);
+        border-left: 1px solid rgba(138, 43, 226, 0.3);
+    }
+    
+    .nav-links.active {
+        right: 0;
+    }
+    
+    .nav-links a {
+        font-size: 1.2rem;
+        padding: 15px 0;
+    }
+    
+    .hamburger {
+        display: block;
+        z-index: 1000;
+    }
+    
+    .hamburger.active i::before {
+        content: '\f00d';
+    }
+}
+
+@media (max-width: 480px) {
+    .quantum-carousel {
+        height: 300px;
+    }
+    
+    .carousel-item {
+        width: 200px;
+        height: 250px;
+    }
+    
+    .ar-experience {
+        height: 500px;
+    }
+    
+    .profile-image-nav {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+}
