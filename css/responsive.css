@@ -1,0 +1,254 @@
+/* ===== RESPONSIVE DESIGN MEJORADO ===== */
+@media (max-width: 768px) {
+    /* Solucionar overflow horizontal */
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    /* Asegurar que todas las imágenes no excedan el ancho */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+@media (max-width: 1200px) {
+    .quantum-carousel {
+        height: 500px;
+    }
+    
+    .carousel-item {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hologram-nav {
+        right: 15px;
+    }
+    
+    .quantum-carousel {
+        height: 400px;
+    }
+    
+    .carousel-item {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .floating-gallery {
+        height: 600px;
+    }
+    
+    .floating-image {
+        width: 200px !important;
+        height: 300px !important;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: rgba(5, 5, 16, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+        z-index: 999;
+        backdrop-filter: blur(20px);
+        border-left: 1px solid rgba(158, 68, 232, 0.204);
+    }
+    
+    .nav-links.active {
+        right: 0;
+    }
+    
+    .nav-links a {
+        font-size: 1.2rem;
+        padding: 15px 0;
+    }
+    
+    .hamburger {
+        display: block;
+        z-index: 1000;
+    }
+    
+    .hamburger.active i::before {
+        content: '\f00d';
+    }
+}
+
+@media (max-width: 768px) {
+    .quantum-carousel {
+         height: 300px;
+    }
+    
+    .carousel-item {
+        width: 200px;
+        height: 250px;
+    }
+    
+    .ar-experience {
+        height: 500px;
+    }
+    
+    .profile-image-nav {
+        width: 70px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .quantum-carousel {
+        height: 300px;
+       
+    }
+    .carousel-item {
+        width: 400px;
+        height: 550px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .quantum-carousel {
+        height: 900px;
+    }
+    
+    .carousel-item {
+        width: 500px;
+        height: 700px;
+    }
+}
+@media (max-width: 600px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 400px) {
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .hologram-section .section-content p {
+        font-size: 0.9rem;
+    }
+
+    .contact-details h3 {
+        font-size: 1rem;
+    }
+    .contact-details p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .hologram-nav {
+        right: 5px;
+    }
+
+    .carousel-item {
+        width: 180px;
+        height: 220px;
+    }
+
+    .floating-image {
+        width: 150px !important;
+        height: 220px !important;
+    }
+}
+@media (max-width: 320px) {
+    .nav-links {
+        width: 80%;
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+}
+@media (max-width: 280px) {
+    .carousel-item {
+        width: 150px;
+        height: 200px;
+    }
+
+    .floating-image {
+        width: 120px !important;
+        height: 180px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .quantum-carousel {
+        height: 450px;
+    }
+    
+    .carousel-item {
+        width: 280px;
+        height: 380px;
+    }
+
+    .floating-gallery {
+        height: 700px;
+    }
+    .floating-image {
+        width: 220px !important;
+        height: 320px !important;
+    }
+
+    .nav-links a {
+        font-size: 1.1rem;
+        padding: 12px 0;
+    }
+    .hamburger {
+        font-size: 1.5rem;
+        right: 20px;
+    }
+
+@media (max-width: 600px) {
+    .quantum-carousel {
+        height: 350px;
+    }
+    
+    .carousel-item {
+        width: 220px;
+        height: 300px;
+    }
+    
+    .floating-gallery {
+        height: 500px;
+    }
+    
+    .floating-image {
+        width: 180px !important;
+        height: 280px !important;
+    }
+    
+    .nav-links {
+        width: 80%;
+    }
+    
+    .nav-links a {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    
+    .hamburger {
+        font-size: 1.3rem;
+        right: 10px;
+    }
+}
