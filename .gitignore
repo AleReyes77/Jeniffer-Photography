@@ -1,11 +1,25 @@
+# Dependencies
 node_modules/
+JENIFFER PHOTOGRAPHY/node_modules/
+
+# Environment variables
 .env
-.DS_Store
-Thumbs.db
+JENIFFER PHOTOGRAPHY/.env
+
+# Uploads
+JENIFFER PHOTOGRAPHY/uploads/
+
+# Logs
 *.log
-*.tmp
-*.temp
-dist/
-build/
+logs/
+
+# IDE
 .vscode/
 .idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
